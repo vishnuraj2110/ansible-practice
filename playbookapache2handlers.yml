@@ -1,0 +1,19 @@
+- name: update existing conf file using jinja2
+  hosts: webserver
+  become: true
+  vars:
+   document_root: /var/www/html
+  tasks:
+  - name: Update  the ports.conf file for each host
+    template: src=ports.conf.j2 dest=/etc/apache2/ports.conf
+    notify: Restart Apache2 server
+  - name: Update the defaults.conf file for each host
+    template: src=000-default.conf.j2 dest=/etc/apache2/sites-enabled/000-default.conf
+    notify: Restart Apache2 server
+  - name: Deploy application HTML code on apache2 server
+    copy: src=index.html dest={{document_root}}
+    notify: Restart Apache2 server
+  handlers:
+  - name: Restart Apache2 server
+    service: name=apache2 state=restarted
+

@@ -1,0 +1,11 @@
+---
+- name: Executing command on worker node
+  hosts: parent
+  tasks:
+    - name: Find the hostname of workers
+      command: hostname -s
+      register: command_output
+    - name: print the command output
+      debug: var=command_output.stdout
+
+

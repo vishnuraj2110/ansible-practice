@@ -1,0 +1,9 @@
+- name: Ansible vault secrets data
+  hosts: webserver
+  become: true
+  vars_files:
+   - secrets.yml
+  tasks:
+  - name: Create a user on worker nodes
+    user: name={{username}} password={{password}}
+

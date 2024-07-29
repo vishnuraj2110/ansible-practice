@@ -1,0 +1,23 @@
+- name: handlers in the play
+  hosts: webserver
+  become: true
+  tasks:
+  - name: Execute a command
+    command: hostname -s
+    register: output_command
+    notify:
+     - Print a message
+     - Output of command execution
+  - name: Copy a file
+    copy: src=index.html dest=/var/www/html
+    notify:
+     - Print a message
+     - Restart apache2 server
+  handlers:
+  - name: Print a message
+    debug: msg="Handler Execution by ACM"
+  - name: Output of command execution
+    debug: var=output_command.stdout
+  - name: Restart apache2 server
+    service: name=apache2 state=restarted
+

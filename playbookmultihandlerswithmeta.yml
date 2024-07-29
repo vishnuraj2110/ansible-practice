@@ -1,0 +1,28 @@
+---
+- name: Multiple Handlers
+  hosts: webserver
+  become: true
+  tasks:
+    - name: execute a command
+      command: hostname -s
+      register: cmd_output
+      notify:
+        - Print output
+        - Print a message
+    - name: execute a command
+      command: echo "restart service"
+      notify:
+        - Restart apache2
+        - Restart docker
+    - name: Flush the notified handlers
+      meta: flush_handlers
+  handlers:
+    - name: Print output
+      debug: var=cmd_output.stdout
+    - name: Print a message
+      debug: msg="command executed successfully"
+    - name: Restart apache2
+      service: name=apache2 state=restarted
+    - name: Restart docker
+      service: name=docker state=restarted
+

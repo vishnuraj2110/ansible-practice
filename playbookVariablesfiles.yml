@@ -1,0 +1,11 @@
+- name: variables in Ansible
+  hosts: webserver
+  become: true
+  vars_files:
+   - variables.yml
+  tasks:
+  - name: Install package on worker nodes
+    package: name={{pkg_name[2]}} state={{pkg_state[0]}}
+  - name: Create a empty file
+    file: path={{file_path[1]}} state={{file_state[0]}}
+

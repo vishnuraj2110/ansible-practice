@@ -1,0 +1,15 @@
+- name: multiple values of a variable
+  hosts: webserver
+  become: true
+  vars:
+   user_name:
+    - user01
+    - user02
+    - user03
+    - user04
+  tasks:
+  - name: Create 4 users of worker node
+    user: name={{item}} state=present
+    loop: "{{user_name}}"
+
+

@@ -1,0 +1,11 @@
+- name: jinja2 templates
+  hosts: webserver
+  become: true
+  vars:
+   admin_name: AnsibleController
+  tasks:
+  - name: Delete webfile.conf if present on destination
+    file: path=/etc/webfile.conf state=absent
+  - name: copy the j2 file on hostserver
+    template: src=webfile.conf.j2 dest=/etc/webfile.conf
+

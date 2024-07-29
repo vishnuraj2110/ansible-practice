@@ -1,0 +1,10 @@
+- name: Multiple conditions in a playbook
+  hosts: webserver
+  become: true
+  tasks:
+  - name: Exeucte a command on the server
+    command: hostname -s
+    when: (ansible_distribution == "Ubuntu" and  ansible_distribution_major_version == "20") or
+              (ansible_distribution == "Amazon") or
+              (ansible_distribution == "RHEL")
+

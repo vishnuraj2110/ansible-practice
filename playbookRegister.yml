@@ -1,0 +1,10 @@
+- name: Register variable
+  hosts: aws_ec2
+  become: true
+  tasks: 
+  - name: Install package on worker nodes
+    package: name=git state=present
+    register: package_check
+  - name: print output on console
+    debug: var=package_check.stdout_lines
+

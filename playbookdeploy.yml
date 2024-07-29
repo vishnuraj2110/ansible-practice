@@ -1,0 +1,17 @@
+- name: update apache2 server config using jinja2
+  hosts: webserver
+  become: true
+  vars:
+   document_root : /var/www/html
+  tasks:
+  - name: Install apache2 server
+    package: name=apache2 state=present
+  - name: Update ports.conf file of apache2
+    template: src=ports.conf.j2 dest=/etc/apache2/ports.conf
+  - name: Update the default conf file on server
+    template: src=000-default.conf.j2 dest=/etc/apache2/sites-enabled/000-default.conf
+  - name: Deploy the index.html file on apache2 server
+    copy: src=index.html dest={{document_root}}
+  - name: Restart the apache2 server
+    service: name=apache2 state=restarted
+

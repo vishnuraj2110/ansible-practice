@@ -1,0 +1,15 @@
+pkg_name: 
+  - git
+  - tree
+  - nano
+pkg_state: 
+  - present
+  - absent
+  - latest
+file_path: 
+  - /tmp/demo16.txt
+  - /tmp/demo25.txt
+file_state: 
+  - touch
+  - directory
+

@@ -1,0 +1,11 @@
+- name: Conditions in ansible
+  hosts: webserver
+  become: true
+  tasks:
+  - name: Task to be executed on Debain server
+    package: name=apache2 state=present
+    when: ansible_os_family == "Debian"
+  - name: task to be executed on RHEL server
+    package: name=httpd state=present
+    when: ansible_os_family == "RHEL"
+

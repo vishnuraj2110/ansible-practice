@@ -1,0 +1,17 @@
+vim webfile.conf.j2
+
+{{ansible_managed}}
+{{template_host}}
+
+This file is a system configuration file
+
+This file is created on /etc directory of system
+
+This file consist of default paramters of the server
+
+
+hostname = {{ansible_nodename}}
+ip4_address = {{ansible_default_ipv4["address"]}}
+OS = {{ansible_os_family}}
+admin = {{admin_name}}
+

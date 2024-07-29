@@ -1,0 +1,14 @@
+[devserver]
+172.31.7.235
+
+[webserver]
+172.31.9.55 http_port=8081
+172.31.7.235 http_port=8082
+
+[allserver]
+172.31.9.55
+172.31.7.235
+
+[parent:children]
+webserver
+devserver

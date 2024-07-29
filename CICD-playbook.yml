@@ -1,0 +1,11 @@
+- name: CI and CD tasks
+  hosts: webserver
+  become: true
+  tasks:
+  - name: Build the Source code into an artifact
+    command: chdir=/tmp/code-repo1 mvn package
+  - name: Build the dockerfile into an image
+    command: chdir=/tmp/code-repo1 docker build -t ansiblemaven .
+  - name: Run the image to deploy app on container
+    command: docker run -d -P ansiblemaven
+
