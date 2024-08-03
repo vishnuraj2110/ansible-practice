@@ -14,10 +14,10 @@
 ~MSle0~/\V\<The\>
 
 # Command Line History (newest to oldest):
-:wq!
-|2,0,1722191154,,"wq!"
 :q!
-|2,0,1722169404,,"q!"
+|2,0,1722234405,,"q!"
+:wq!
+|2,0,1722234390,,"wq!"
 :Wq!
 |2,0,1721298289,,"Wq!"
 :Wq1
@@ -66,230 +66,288 @@
 |3,0,36,0,1,0,1722172722,"t"
 
 # File marks:
-'0  2  15  ~/playbookRegister.yml
-|4,48,2,15,1722191154,"~/playbookRegister.yml"
-'1  4  0  ~/aws_ec2.yml
-|4,49,4,0,1722188357,"~/aws_ec2.yml"
-'2  4  23  ~/ansible.cfg
-|4,50,4,23,1722187723,"~/ansible.cfg"
-'3  23  0  ~/playbookHandlers.yml
-|4,51,23,0,1722174512,"~/playbookHandlers.yml"
-'4  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,52,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
-'5  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,53,12,54,1722174029,"~/playbookmultihandlerswithmeta.yml"
-'6  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,54,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
-'7  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,55,28,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
-'8  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,56,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
-'9  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,57,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
+'0  15  83  ~/mysql/tasks/main.yml
+|4,48,15,83,1722234405,"~/mysql/tasks/main.yml"
+'1  6  0  ~/playbookRoles.yml
+|4,49,6,0,1722233415,"~/playbookRoles.yml"
+'2  5  0  ~/apache/handlers/main.yml
+|4,50,5,0,1722233254,"~/apache/handlers/main.yml"
+'3  3  0  ~/apache/templates/index.html.j2
+|4,51,3,0,1722233169,"~/apache/templates/index.html.j2"
+'4  7  27  ~/apache/tasks/main.yml
+|4,52,7,27,1722233120,"~/apache/tasks/main.yml"
+'5  8  0  ~/apache/vars/main.yml
+|4,53,8,0,1722233045,"~/apache/vars/main.yml"
+'6  5  35  ~/apache/tasks/main.yml
+|4,54,5,35,1722232912,"~/apache/tasks/main.yml"
+'7  5  35  ~/apache/tasks/main.yml
+|4,55,5,35,1722232912,"~/apache/tasks/main.yml"
+'8  2  15  ~/playbookRegister.yml
+|4,56,2,15,1722191154,"~/playbookRegister.yml"
+'9  4  0  ~/aws_ec2.yml
+|4,57,4,0,1722188357,"~/aws_ec2.yml"
 
 # Jumplist (newest first):
--'  2  15  ~/playbookRegister.yml
-|4,39,2,15,1722191154,"~/playbookRegister.yml"
--'  6  34  ~/playbookRegister.yml
-|4,39,6,34,1722191138,"~/playbookRegister.yml"
--'  4  0  ~/aws_ec2.yml
-|4,39,4,0,1722188357,"~/aws_ec2.yml"
--'  4  0  ~/aws_ec2.yml
-|4,39,4,0,1722188357,"~/aws_ec2.yml"
--'  1  0  ~/aws_ec2.yml
-|4,39,1,0,1722188343,"~/aws_ec2.yml"
--'  1  0  ~/aws_ec2.yml
-|4,39,1,0,1722188343,"~/aws_ec2.yml"
--'  4  23  ~/ansible.cfg
-|4,39,4,23,1722187723,"~/ansible.cfg"
--'  4  23  ~/ansible.cfg
-|4,39,4,23,1722187723,"~/ansible.cfg"
--'  4  23  ~/ansible.cfg
-|4,39,4,23,1722187723,"~/ansible.cfg"
--'  4  23  ~/ansible.cfg
-|4,39,4,23,1722187723,"~/ansible.cfg"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  23  0  ~/playbookHandlers.yml
-|4,39,23,0,1722174512,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  1  0  ~/playbookHandlers.yml
-|4,39,1,0,1722174470,"~/playbookHandlers.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  28  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,28,0,1722174241,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  12  54  ~/playbookmultihandlerswithmeta.yml
-|4,39,12,54,1722174047,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  13  25  ~/playbookmultihandlerswithmeta.yml
-|4,39,13,25,1722174029,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173968,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
--'  27  0  ~/playbookmultihandlerswithmeta.yml
-|4,39,27,0,1722173788,"~/playbookmultihandlerswithmeta.yml"
+-'  15  83  ~/mysql/tasks/main.yml
+|4,39,15,83,1722234405,"~/mysql/tasks/main.yml"
+-'  1  0  ~/mysql/tasks/main.yml
+|4,39,1,0,1722233766,"~/mysql/tasks/main.yml"
+-'  6  0  ~/playbookRoles.yml
+|4,39,6,0,1722233415,"~/playbookRoles.yml"
+-'  6  0  ~/playbookRoles.yml
+|4,39,6,0,1722233415,"~/playbookRoles.yml"
+-'  1  0  ~/playbookRoles.yml
+|4,39,1,0,1722233390,"~/playbookRoles.yml"
+-'  1  0  ~/playbookRoles.yml
+|4,39,1,0,1722233390,"~/playbookRoles.yml"
+-'  5  0  ~/apache/handlers/main.yml
+|4,39,5,0,1722233254,"~/apache/handlers/main.yml"
+-'  5  0  ~/apache/handlers/main.yml
+|4,39,5,0,1722233254,"~/apache/handlers/main.yml"
+-'  5  0  ~/apache/handlers/main.yml
+|4,39,5,0,1722233254,"~/apache/handlers/main.yml"
+-'  5  0  ~/apache/handlers/main.yml
+|4,39,5,0,1722233254,"~/apache/handlers/main.yml"
+-'  1  0  ~/apache/handlers/main.yml
+|4,39,1,0,1722233223,"~/apache/handlers/main.yml"
+-'  1  0  ~/apache/handlers/main.yml
+|4,39,1,0,1722233223,"~/apache/handlers/main.yml"
+-'  1  0  ~/apache/handlers/main.yml
+|4,39,1,0,1722233223,"~/apache/handlers/main.yml"
+-'  1  0  ~/apache/handlers/main.yml
+|4,39,1,0,1722233223,"~/apache/handlers/main.yml"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  3  0  ~/apache/templates/index.html.j2
+|4,39,3,0,1722233169,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  1  0  ~/apache/templates/index.html.j2
+|4,39,1,0,1722233151,"~/apache/templates/index.html.j2"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  7  27  ~/apache/tasks/main.yml
+|4,39,7,27,1722233120,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  5  35  ~/apache/tasks/main.yml
+|4,39,5,35,1722233062,"~/apache/tasks/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  8  0  ~/apache/vars/main.yml
+|4,39,8,0,1722233045,"~/apache/vars/main.yml"
+-'  1  0  ~/apache/vars/main.yml
+|4,39,1,0,1722232930,"~/apache/vars/main.yml"
+-'  1  0  ~/apache/vars/main.yml
+|4,39,1,0,1722232930,"~/apache/vars/main.yml"
+-'  1  0  ~/apache/vars/main.yml
+|4,39,1,0,1722232930,"~/apache/vars/main.yml"
+-'  1  0  ~/apache/vars/main.yml
+|4,39,1,0,1722232930,"~/apache/vars/main.yml"
+-'  1  0  ~/apache/vars/main.yml
+|4,39,1,0,1722232930,"~/apache/vars/main.yml"
+-'  1  0  ~/apache/vars/main.yml
+|4,39,1,0,1722232930,"~/apache/vars/main.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/mysql/tasks/main.yml
+	*	1722234402	0
+	"	15	83
+	^	15	84
+	.	15	83
+	+	13	45
+	+	4	14
+	+	3	15
+	+	9	7
+	+	8	7
+	+	11	19
+	+	14	31
+	+	15	15
+	+	14	31
+	+	15	83
+
+> ~/playbookRoles.yml
+	*	1722233413	0
+	"	6	0
+	^	6	0
+	.	5	11
+	+	5	11
+
+> ~/apache/handlers/main.yml
+	*	1722233247	0
+	"	5	0
+	^	5	0
+	.	4	47
+	+	4	47
+
+> ~/apache/templates/index.html.j2
+	*	1722233167	0
+	"	3	0
+	^	3	0
+	.	2	56
+	+	2	56
+
+> ~/apache/tasks/main.yml
+	*	1722233118	0
+	"	7	27
+	^	7	28
+	.	7	27
+	+	13	32
+	+	4	26
+	+	7	26
+	+	5	36
+	+	4	27
+	+	5	35
+	+	7	27
+
+> ~/apache/vars/main.yml
+	*	1722233044	0
+	"	8	0
+	^	8	0
+	.	7	23
+	+	3	0
+	+	7	23
 
 > ~/playbookRegister.yml
 	*	1722191151	0

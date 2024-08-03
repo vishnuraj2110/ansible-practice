@@ -374,3 +374,73 @@ ls
 rm -r README.md tests meta
 ls
 clear
+ls
+clear
+ls
+git init
+ls
+git remote add origin https://github.com/vishnuraj2110/ansible-practice.git
+git branch
+git status
+git add .
+git status
+clear
+git commit -m "all ansible file pushed first time"
+git config --global user.email "vishnuraj2110@gmail.com"
+git config --global user.name "vishnuraj2110
+"
+git config --global user.name "vishnuraj2110"
+git commit -m "all ansible file pushed first time"
+git push origin master
+git status
+cat .gitconfig
+clear
+ls
+cd apache
+ls
+clear
+ls
+cd tasks
+ls
+vi main.yml
+cd ..
+ls
+vi vars/main.yml 
+vi tasks/main.yml 
+vim templates/index.html.j2
+vim handlers/main.yml
+tree
+apt-get update
+sudo apt-get update
+sudo apt-get install tree -y
+tree
+ls
+cd ..
+vim playbookRoles.yml
+ansible-playbook playbookRoles.yml
+treww
+tree
+tree apache/
+clear
+sudo ansible-galaxy init mysql
+ls
+cd mysql
+vi tasks/main.yml 
+sudo vi tasks/main.yml 
+sudo vi vars//main.yml 
+cat vars//main.yml 
+cd ..
+sudo ansible-galaxy init php
+cd php/
+ls
+clear
+sudo vi tasks/main.yml 
+ls
+cat tasks/main.yml 
+cd ..
+sudo ansible-galaxy init wordpress
+cd wordpress/
+ls
+cd apache
+ls
+tree

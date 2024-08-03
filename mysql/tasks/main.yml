@@ -1,0 +1,15 @@
+---
+- name: Install required softwares for mysql server
+  package: name={{item}} state=present
+  loop:
+   - apache2
+   - mysql-server
+   - php-mysql
+   - php
+   - libapache2-mod-php
+   - pyhtin3-mysqldb
+- name: Create a mysql database
+  mysql_db: name={{wp_mysql_db}} state=present
+- name: create mysql credentials
+  mysql_user: name={{ wp_mysql_user }} password={{ wp_mysql_password }} priv=*.*:ALL
+~

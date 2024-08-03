@@ -1,2 +1,8 @@
 ---
 # vars file for apache
+pkg_name:
+ - httpd
+ - apache2
+dest_path: /var/www/html/index.html
+username: Ansible_admin
+

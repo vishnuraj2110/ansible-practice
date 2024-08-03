@@ -1,2 +1,14 @@
 ---
 # tasks file for apache
+- name: Install httpd Server
+  package: name={{pkg_name[0]}} state=present
+  when: ansible_os_family == "RedHat"
+- name: Install apache2 server
+  package: name={{pkg_name[1]}} state=present
+  when: ansible_os_family != "RedHat"
+- name: Start apache Service
+  service: name=apache2 state=started
+- name: Copy HTML code template on the apache webserver
+  template: src=index.html.j2 dest={{dest_path}}
+  notify: Restart apache2 Server
+
